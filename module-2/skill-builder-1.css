@@ -1,0 +1,135 @@
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.hosting-main__title {
+  color: #2c3e50;
+  font-family: system-ui, sans-serif;
+  font-size: 2.5rem;
+}
+
+.hosting-main__subtitle {
+  color: #2c3e50;
+  font-family: system-ui, sans-serif;
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hosting-main__paragraph {
+  font-family: system-ui, sans-serif;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.hosting-main__features-item {
+  color: #2c3e50;
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hosting-main__compare-button {
+  background: #166ca6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+/* Repetitive plan styles */
+.hosting-plan {
+  border: 2px solid #e1e8ed;
+  border-radius: 12px;
+  padding: 2rem;
+  background: white;
+}
+
+.hosting-plan--business {
+  background: #166ca6;
+}
+
+.hosting-plan__title {
+  color: #166ca6;
+  font-family: system-ui, sans-serif;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.hosting-plan__title--business {
+  color: #fff;
+}
+
+.hosting-plan__price {
+  color: #0786db;
+  font-size: 1.5rem;
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hosting-plan__price--business {
+  color: #fff;
+}
+
+.hosting-plan__description {
+  color: #555;
+  font-family: system-ui, sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+.hosting-plan__description--business {
+  color: #cde6f7;
+}
+
+.hosting-plan__features {
+  margin-bottom: 2rem;
+}
+
+.hosting-plan__features--business {
+  color: #cde6f7;
+}
+
+.hosting-plan__features-item {
+  color: #2c3e50;
+  font-family: system-ui, sans-serif;
+  font-size: 0.875rem;
+  position: relative;
+}
+
+.hosting-plan__button {
+  background: #166ca6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+.hosting-plan__button--business {
+  background: #fff;
+  color: #166ca6;
+}
+
+.hosting-plan__button--business:hover {
+  background: #a8cde6;
+}
+
+.hosting-plan__button:hover {
+  background: #0f2d41;
+  color: #fff;
+}
